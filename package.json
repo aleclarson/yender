@@ -1,0 +1,14 @@
+{
+  "name": "yender",
+  "version": "0.1.0",
+  "main": "lib/yender.js",
+  "license": "MIT",
+  "repository": "aleclarson/yender",
+  "description": "Yield for render props",
+  "dependencies": {
+    "immutagen": "^1.0.7"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  }
+}
