@@ -51,3 +51,23 @@ const HelloWorld = yender(function* () {
   return 'Hello world'
 })
 ```
+
+### The `@yender` decorator
+
+Component classes are supported, too!
+
+```ts
+import {Component} from 'react'
+import {yender} from 'yender'
+
+@yender
+class HelloWorld extends Component {
+  *render() {
+    const {foo} = yield <Foo />
+    return 'Hello ' + this.props.world
+  }
+}
+
+// Without decorators
+yender(HelloWorld)
+```
