@@ -5,15 +5,11 @@
   "license": "MIT",
   "repository": "aleclarson/yender",
   "description": "Yield for render props",
-  "dependencies": {
-    "@types/react": "^16.4.14",
-    "@types/react-native": "^0.56.19",
-    "react-native": "^0.57.0"
-  },
   "peerDependencies": {
-    "react": "16.x"
+    "react": "^16.0.0"
   },
   "devDependencies": {
+    "@types/react": "^16.4.14",
     "prettier": "^1.14.2",
     "tslint": "^5.11.0",
     "typescript": "^3.1.0-rc.20180911",
